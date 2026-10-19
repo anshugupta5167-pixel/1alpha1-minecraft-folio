@@ -1,0 +1,19 @@
+{
+  "name": "1alpha1-minecraft-folio",
+  "version": "1.0.0",
+  "description": "1Alpha1 (@1Alphaaa1) Minecraft Folio 3D Portfolio replica with videos, custom thumbnails, animations, and sound effects",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "serve": "node server.js"
+  },
+  "keywords": [
+    "minecraft",
+    "1alpha1",
+    "threejs",
+    "portfolio",
+    "gaming"
+  ],
+  "author": "1Alpha1",
+  "license": "MIT"
+}
