@@ -1,17 +1,23 @@
 {
-  "outputDirectory": ".",
-  "routes": [
-    { "handle": "filesystem" },
-    { "src": "/(.*)", "dest": "/index.html" }
-  ],
+  "cleanUrls": true,
   "headers": [
     {
       "source": "/(.*).wasm",
-      "headers": [{ "key": "Content-Type", "value": "application/wasm" }]
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
+        }
+      ]
     },
     {
       "source": "/(.*).glb",
-      "headers": [{ "key": "Content-Type", "value": "model/gltf-binary" }]
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "model/gltf-binary"
+        }
+      ]
     }
   ]
 }
